@@ -3,7 +3,7 @@ services:
     build: .
     #environment:
     #  - DISPLAY=$DISPLAY
-    #  - HF_TOKEN=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
+    #  - HF_TOKEN=
     volumes:
       #./home:/homeだと、dockerユーザを作った時にcondaがactiveにならない
       - ./work:/home/docker/work
